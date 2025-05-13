@@ -1,0 +1,4 @@
+(lang dune 3.16)
+(name mini_git)
+(sections (lib .) (bin ../../bin) (doc ../../doc/mini_git))
+(files (lib (META dune-package opam)) (bin (mini_git)) (doc (README.md)))

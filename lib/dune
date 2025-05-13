@@ -1,0 +1,4 @@
+(library
+  (name utility)
+  (modules utility)
+  (libraries unix camlzip))

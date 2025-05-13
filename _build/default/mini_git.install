@@ -1,0 +1,11 @@
+lib: [
+  "_build/install/default/lib/mini_git/META"
+  "_build/install/default/lib/mini_git/dune-package"
+  "_build/install/default/lib/mini_git/opam"
+]
+bin: [
+  "_build/install/default/bin/mini_git"
+]
+doc: [
+  "_build/install/default/doc/mini_git/README.md"
+]
