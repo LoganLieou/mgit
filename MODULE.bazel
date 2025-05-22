@@ -1,0 +1,9 @@
+MGIT_VERSION = "0.0.1"
+
+module(
+	name = "mgit",
+	version = MGIT_VERSION,
+	repo_name = "xyz_loganlieou_mgit",
+)
+
+bazel_dep(name = "zstd", version = "1.5.7")

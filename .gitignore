@@ -1,0 +1,3 @@
+# ignore bazel build outputs
+MODULE.bazel.lock
+bazel-*/

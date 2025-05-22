@@ -1,0 +1,5 @@
+cc_binary(
+    name = "compress_example",
+    srcs = ["main.cc"],
+    deps = ["@zstd//:zstd"],
+)

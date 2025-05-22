@@ -1,4 +1,0 @@
-(executable
- (public_name mini_git)
- (name main)
- (libraries utility))
