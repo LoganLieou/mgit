@@ -1,0 +1,18 @@
+package(default_visibility = ["//visibility:public"])
+
+cc_library(
+    name = "utils",
+    srcs = ["utils.cc"],
+    hdrs = ["utils.h"],
+    deps = [
+        "@zstd//:zstd",
+    ],
+)
+
+cc_binary(
+    name = "mgit",
+    srcs = ["main.cc"],
+    deps = [
+        "//src:utils",
+    ],
+)

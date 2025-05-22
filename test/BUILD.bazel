@@ -1,0 +1,10 @@
+cc_test(
+	name = "compression_test",
+	srcs = ["compression_test.cc"],
+	deps = [
+		"//src:utils",
+		"@googletest//:gtest_main",
+		"@googletest//:gtest",
+	],
+	data = ["data/test_file.txt"]
+)

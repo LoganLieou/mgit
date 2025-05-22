@@ -7,3 +7,4 @@ module(
 )
 
 bazel_dep(name = "zstd", version = "1.5.7")
+bazel_dep(name = "googletest", version = "1.17.0")
